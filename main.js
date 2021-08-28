@@ -20,8 +20,16 @@
 
 //  Write your code below:
 //  Use console.log() to check your results in the browser
-const arr = ["Hello", "World", "This", "Is", "My", "String"];
+//const arr = ["Hello", "World", "This", "Is", "My", "String"];
 
+const myWord = ["Javascript", "Need", "More", "Practice", "My", "Arrays"]
+
+console.log(myWord[0][0]);
+console.log(myWord[1][0]);
+console.log(myWord[2][0]);
+console.log(myWord[3][0]);
+console.log(myWord[4][0]);
+console.log(myWord[5][0]);
 
 
 
