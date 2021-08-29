@@ -20,10 +20,14 @@
 
 //  Write your code below:
 //  Use console.log() to check your results in the browser
-const arr = ["Hello", "World", "This", "Is", "My", "String"];
+
+const myWords = ["Hi", "ethiopia", 'love', 'lovely', 'obvious', 'with', 'only', 'real', 'lovable','day'];
 
 
 
-
-
-
+let myLetter = function ( word ) {
+    for (let i = 0; i < word.length; i += 1) {
+        console.log(word[i].charAt(0));
+    }
+}
+myLetter(myWords);
