@@ -21,6 +21,12 @@
 //  Write your code below:
 //  Use console.log() to check your results in the browser
 const arr = ["Hello", "World", "This", "Is", "My", "String"];
+// const secretMessage = animals.map(animal=>{return animal[0]})
+
+// console.log(secretMessage.join(''));
+for (i = 0; i < arr.length; i++){
+console.log(arr[i].charAt(0))
+}
 
 
 
