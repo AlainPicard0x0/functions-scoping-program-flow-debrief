@@ -22,7 +22,8 @@
 //  Use console.log() to check your results in the browser
 const arr = ["Hello", "World", "This", "Is", "My", "String"];
 
-arr.forEach(element => console.log(element.charAt(0)))
+let printFirstLetter = (array) => array.forEach(element => console.log(element.charAt(0)))
+printFirstLetter(arr)
 
 
 
