@@ -23,7 +23,15 @@
 const arr = ["Hello", "World", "This", "Is", "My", "String"];
 
 
+ for (let i=0 ; i<arr.length  ;i++){
+     console.log(arr[i][0]);
+ }
+console.log(`*****************`);
 
+for(const i in arr){
+    console.log(arr[i][0])
+}
+console.log(`*****************`);
 
 
 
