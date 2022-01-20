@@ -23,7 +23,14 @@
 const arr = ["Hello", "World", "This", "Is", "My", "String"];
 
 
+function firstLetters(arr) {
+    let result = []
+  for(let i = 0; i < arr.length; i++) {
+      result.push(arr[i].charAt(0));
+      result.push('\n');
+  }
+  return result.join('');
+}
 
-
-
+console.log(firstLetters(arr));
 
