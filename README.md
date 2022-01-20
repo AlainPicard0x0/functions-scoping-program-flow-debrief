@@ -1,5 +1,9 @@
 # functions-scoping-program-flow-debrief
-
+<a href="https://github.com/txlocnguyen/functions-scoping-program-flow-debrief/blob/main/main.js">Finished</a>. Here's my solution <br/>
+````
+let printFirstLetter = (array) => array.forEach(element => console.log(element.charAt(0))) <br/>
+printFirstLetter(arr)
+````
 ### Write a function that takes an Array of strings as an argument and prints the first letter of each element out (one per line).
     For example the Array ["Hello", "World", "This", "Is", "My", "String"] should get printed as follows:
 
