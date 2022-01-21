@@ -22,8 +22,18 @@
 //  Use console.log() to check your results in the browser
 const arr = ["Hello", "World", "This", "Is", "My", "String"];
 
+const arrMes = arr.map(ar => ar.charAt(0));
+
+console.log(arrMes);
+
+const secretMessage = ['Helmet', 'Elephant', 'Lava', 'Lair', 'Octopi', 'Apple', 'Lemon', 'Apricot', 'Nemo'];
+
+const msg = secretMessage.map(smsg => smsg.charAt(0));
 
 
+
+
+console.log(msg.join(''));
 
 
 
