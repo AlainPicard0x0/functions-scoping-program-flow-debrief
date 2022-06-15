@@ -22,6 +22,10 @@
 //  Use console.log() to check your results in the browser
 const arr = ["Hello", "World", "This", "Is", "My", "String"];
 
+for(const element of arr) {
+    console.log(element[0]);
+}
+
 
 
 
