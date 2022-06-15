@@ -22,6 +22,26 @@
 //  Use console.log() to check your results in the browser
 const arr = ["Hello", "World", "This", "Is", "My", "String"];
 
+let myFunction = element => console.log(element.charAt(0));
+
+console.log('\nfor of mode');
+for (const iterator of arr) {
+    myFunction(iterator);
+}
+
+console.log('\nfor each mode');
+arr.forEach(element => {
+    myFunction(element);
+});
+
+console.log('\nfor each mode2');
+arr.forEach( el => myFunction(el) );
+
+console.log('\nfor mode');
+for (let index = 0; index < arr.length; index++) {
+    const element = arr[index];
+    myFunction(element);   
+}
 
 
 
