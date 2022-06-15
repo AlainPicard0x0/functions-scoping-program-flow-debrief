@@ -22,8 +22,11 @@
 //  Use console.log() to check your results in the browser
 const arr = ["Hello", "World", "This", "Is", "My", "String"];
 
+function returnFirstLetter () {
+for (const element of arr) {
+    console.log(element.charAt(0));
+}
+}
 
-
-
-
+returnFirstLetter();
 
