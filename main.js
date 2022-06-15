@@ -25,5 +25,12 @@ const arr = ["Hello", "World", "This", "Is", "My", "String"];
 
 
 
+const printFirstLetterFunc = array => {
+  let firstLetter = '';
+  for (let word of array) {
+    firstLetter += word.toString().charAt(0) + '\n';
+  }
+  return firstLetter;
+};
 
-
+console.log(printFirstLetterFunc(arr));
