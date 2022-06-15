@@ -21,6 +21,9 @@
 //  Write your code below:
 //  Use console.log() to check your results in the browser
 const arr = ["Hello", "World", "This", "Is", "My", "String"];
+for(var i = 0; i < arr.length; i++){
+    console.log(arr[i][0]);
+}
 
 
 
