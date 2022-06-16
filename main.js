@@ -22,8 +22,18 @@
 //  Use console.log() to check your results in the browser
 const arr = ["Hello", "World", "This", "Is", "My", "String"];
 
+//---1------using for loop and call back function---//
+for(let i= 0; i < arr.length ; i++) {
+const newArr = arr[i].charAt(word => {
+   return word ;
+});
+console.log(newArr); 
+}
 
-
-
-
-
+// ---2----using for...of------------------//
+function newArr(letter) {
+    for(let i of arr){
+        console.log(i.charAt(0));
+    }
+}
+newArr();
